@@ -24,4 +24,4 @@ __Heads up!__ Need to assign proper role (e.g. Storage Blob Data Contributor), r
 https://learn.microsoft.com/en-us/cli/azure/storage/account/management-policy?view=azure-cli-latest
 https://learn.microsoft.com/en-us/azure/storage/blobs/lifecycle-management-overview
 
-``az storage account management-policy create --account-name stblobstoragedemo001 --resource-group rg-blob-storage-demo --policy @policy.json``
+``az storage account management-policy create --account-name stblobstoragedemo001 --resource-group rg-blob-storage-demo --policy policy.json``

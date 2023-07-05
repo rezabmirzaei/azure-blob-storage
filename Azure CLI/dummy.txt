@@ -1,1 +1,1 @@
-Some dummy text.
+Some dummy text for Azure CLI.
