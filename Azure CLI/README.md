@@ -1,6 +1,6 @@
 # Azure Blob storage Demo - Azure CLI
 
-Create and manage Azure Blob storage using the Azure CLI
+Create and manage Azure Blob storage using the Azure CLI.
 
 ## Setup
 

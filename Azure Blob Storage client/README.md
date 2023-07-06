@@ -1,5 +1,7 @@
 # Azure Blob storage Demo - Client library for .NET
 
+Create and manage Azure Blob storage containers using the client library for .NET.
+
 ## Setup
 
 [Quickstart: Azure Blob Storage client library for .NET](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=visual-studio%2Cmanaged-identity%2Croles-azure-cli%2Csign-in-azure-cli%2Cidentity-visual-studio)
