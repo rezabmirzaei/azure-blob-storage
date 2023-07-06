@@ -11,7 +11,6 @@ You need:
 * [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet) (.NET 7.0 as of July 23)
 
 The provided .NET console app was created and configured as such:
-
 * ``dotnet new console``
 * ``dotnet add package Azure.Storage.Blobs``
 * ``dotnet add package Azure.Identity``
