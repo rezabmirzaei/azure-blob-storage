@@ -12,6 +12,8 @@ if (String.IsNullOrEmpty(storageaccountName))
 }
 
 // #### Connect to storage account and return a blob service client object
+string connectionString = "[Access keys] > [Connection string]";
+// BlobServiceClient blobServiceClient = new BlobServiceClient(connectionString);
 BlobServiceClient blobServiceClient = new BlobServiceClient(
     new Uri($"https://{storageaccountName}.blob.core.windows.net"),
     new DefaultAzureCredential());
