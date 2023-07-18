@@ -5,6 +5,9 @@ using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 using Azure.Identity;
 
+
+// #### Requirement: A storages account, with it's name stored in env. var "STORAGE_ACCOUNT_NAME"
+
 string storageaccountName = Environment.GetEnvironmentVariable("STORAGE_ACCOUNT_NAME");
 if (String.IsNullOrEmpty(storageaccountName))
 {
@@ -12,6 +15,7 @@ if (String.IsNullOrEmpty(storageaccountName))
 }
 
 // #### Connect to storage account and return a blob service client object
+// Never add username/pwd, tokens, key sor any other secrets to your code!
 // string connectionString = "[Access keys] > [Connection string]";
 // BlobServiceClient blobServiceClient = new BlobServiceClient(connectionString);
 BlobServiceClient blobServiceClient = new BlobServiceClient(
